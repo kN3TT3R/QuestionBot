@@ -35,7 +35,7 @@ struct MyQuestionAnswerer {
 //            return "That really depends"
 //        }
         
-        // V4 - Solution for /App Dev-4/QuestionAnswerer.playground
+        // V4
         let lowerQuestion = question.lowercased()
         if lowerQuestion.hasPrefix("hello there") {
             return "Why, hello there!"
@@ -47,7 +47,7 @@ struct MyQuestionAnswerer {
             return "I’m sorry, I don’t understand the question"
         }
 
-//        // V5 - Solution for iBooks/App Dev with Swift
+//        // V5
 //        return "I’m sorry, I don’t understand the question"
     }
 }
